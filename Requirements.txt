@@ -1,0 +1,12 @@
+Requirements
+
+Dimensions for desktop: 1440 x 960
+Dimensiosn for mobile: 375 x 812
+
+Look into flex box for centering qr component
+Media queries when moving from mobile to desktop
+
+padding and margins found in design files
+
+Step 1?
+
