@@ -9,11 +9,16 @@ html, body {
     align-items: center;
     min-height: 100vh;
 }
-div img {
+.main-component > img {
     max-width: 288px;
 }
 .main-component {
-    min-width: 320px;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+
+
+/* Mobile first styles end here */
