@@ -10,6 +10,18 @@
     font-weight: 400;
     font-style: normal;
 }
+/* Colors */
+.slate-900 {
+    color: hsl(218,44%,22%);
+}
+.slate-500 {
+    color: hsl(216,15%,48%);
+}
+.slate-300 {
+    color: hsl(212,45%,89%);
+}
+
+/* End */
 html, body {
     height: 100%;
     margin: 0;
