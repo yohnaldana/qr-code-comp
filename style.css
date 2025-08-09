@@ -1,3 +1,8 @@
+:root {
+    --slate-900: hsl(218,44%,22%);
+    --slate-500: hsl(216,15%,22%);
+    --slate-300: hsl(212,45%,89%);
+}
 .outfit-bold {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -10,18 +15,6 @@
     font-weight: 400;
     font-style: normal;
 }
-/* Colors */
-.slate-900 {
-    color: hsl(218,44%,22%);
-}
-.slate-500 {
-    color: hsl(216,15%,48%);
-}
-.slate-300 {
-    color: hsl(212,45%,89%);
-}
-
-/* End */
 html, body {
     height: 100%;
     margin: 0;
@@ -32,6 +25,7 @@ html, body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: var(--slate-300);
 }
 .main-component > img {
     max-width: 288px;
@@ -41,16 +35,19 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
 }
 
 h2 {
     font-size: 1.375rem;
     line-height: 120%;
     letter-spacing: 0;
+    color: var(--slate-900);
 }
 p {
     font-size: 0.938rem;
     line-height: 140%;
     letter-spacing: 0.2px;
+    color: var(--slate-500);
 }
 /* Mobile first styles end here */
