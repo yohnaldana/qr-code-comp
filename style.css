@@ -31,4 +31,14 @@ html, body {
     align-items: center;
 }
 
+h2 {
+    font-size: 1.375rem;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+p {
+    font-size: 0.938rem;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
 /* Mobile first styles end here */
