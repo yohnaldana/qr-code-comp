@@ -3,6 +3,10 @@
     --slate-500: hsl(216,15%,22%);
     --slate-300: hsl(212,45%,89%);
 }
+
+* {
+    box-sizing: border-box;
+}
 .outfit-bold {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -29,6 +33,7 @@ html, body {
 }
 .main-component > img {
     max-width: 288px;
+    border-radius: 10px;
 }
 .main-component {
     max-width: 320px;
@@ -36,6 +41,12 @@ html, body {
     flex-direction: column;
     align-items: center;
     background-color: #fff;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+}
+.qr-text {
+    padding: 0 16px;
+    width: 288px;
 }
 
 h2 {
