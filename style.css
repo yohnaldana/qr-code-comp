@@ -43,6 +43,7 @@ html, body {
     background-color: #fff;
     padding: 16px 16px 40px 16px;
     border-radius: 20px;
+    box-shadow: 0 0 25px black;
 }
 .qr-text {
     padding: 0 16px;
