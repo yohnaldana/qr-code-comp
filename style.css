@@ -32,6 +32,7 @@ html, body {
 }
 .main-component > img {
     max-width: 288px;
+    max-height: 288px;
     border-radius: 10px;
     margin-bottom: 24px;
 }
@@ -43,7 +44,7 @@ html, body {
     background-color: #fff;
     padding: 16px 16px 40px 16px;
     border-radius: 20px;
-    box-shadow: 0 0 25px black;
+    box-shadow: 3px 11px 13px 1px rgba(143,143,143,1);
 }
 .qr-text {
     padding: 0 16px;
